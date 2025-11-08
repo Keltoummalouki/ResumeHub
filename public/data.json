@@ -1,0 +1,42 @@
+{
+  "personalInfo": {
+    "name": "Keltoum Malouki",
+    "title": "Développeuse Full Stack",
+    "phone": "+212 606232697",
+    "email": "keltoummalouki@gmail.com",
+    "address": "Casablanca",
+    "github": "keltoummalouki",
+    "linkedin": "keltoummalouki",
+    "portfolio": "keltoummalouki.me",
+    "profileImage": "/src/assets/profile.png"
+  },
+  "skills": {
+    "languages": "C, HTML5, CSS3, SQL, JavaScript, TypeScript, PHP",
+    "frameworks": "Laravel, React, Next.js, Express.js, Tailwind CSS",
+    "databases": "MySQL, PostgreSQL, MongoDB",
+    "tools": "Docker, Git, Figma, Jira"
+  },
+  "experience": [{
+    "role": "Stagiaire Dev Web",
+    "company": "Caisse Manager",
+    "period": "Juin-Août 2025",
+    "tasks": ["Site vitrine React", "Animations GSAP"],
+    "tech": "Next.js, TailwindCSS"
+  }],
+  "education": [{
+    "degree": "Full-Stack YouCode",
+    "details": "Formation pratique web",
+    "year": "2024-Present"
+  }],
+  "projects": [{
+    "name": "Careflow",
+    "period": "Mars 2025",
+    "desc": "API REST gestion patients",
+    "tech": "Node.js, MongoDB"
+  }],
+  "extras": {
+    "certs": ["Docker LinkedIn"],
+    "soft": ["Gestion temps", "Équipe"],
+    "langs": [{"name": "Arabe", "lvl": "natif"}]
+  }
+}
