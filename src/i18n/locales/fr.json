@@ -1,0 +1,138 @@
+{
+    "header": {
+        "phone": "Téléphone",
+        "email": "E-mail",
+        "address": "Adresse",
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "portfolio": "Portfolio"
+    },
+    "sections": {
+        "technicalSkills": "Compétences Techniques",
+        "experience": "Expériences Professionnelles",
+        "education": "Éducation",
+        "projects": "Projets Réalisés",
+        "certifications": "Certifications",
+        "softSkills": "Compétences Transversales",
+        "languages": "Langues"
+    },
+    "skills": {
+        "languages": "Langages",
+        "frameworks": "Frameworks & APIs",
+        "databases": "Bases de données",
+        "devops": "DevOps",
+        "projectManagement": "Gestion de projets",
+        "design": "UX/UI Design",
+        "versionControl": "Contrôle de version",
+        "modeling": "Conception"
+    },
+    "experience": {
+        "technologies": "Technologies & outils utilisés"
+    },
+    "languages": {
+        "native": "maternelle",
+        "fluent": "courant",
+        "advanced": "avancé",
+        "intermediate": "intermédiaire",
+        "beginner": "débutant"
+    },
+    "export": {
+        "export": "Exporter",
+        "downloadPdf": "PDF (Haute qualité)",
+        "downloadPng": "PNG (4x résolution)",
+        "print": "Imprimer",
+        "exportJson": "Exporter JSON",
+        "importJson": "Importer JSON",
+        "reset": "Réinitialiser",
+        "generatingPdf": "Génération du PDF en cours...",
+        "generatingPng": "Génération de l'image en cours...",
+        "pdfSuccess": "CV téléchargé en PDF haute qualité !",
+        "pngSuccess": "CV téléchargé en PNG haute résolution !",
+        "jsonExportSuccess": "CV exporté en JSON !",
+        "jsonImportSuccess": "CV importé avec succès !",
+        "jsonImportError": "Fichier JSON invalide. Vérifiez le format.",
+        "resetConfirmTitle": "Réinitialiser le CV ?",
+        "resetConfirmText": "Cette action supprimera toutes vos modifications.",
+        "resetConfirmButton": "Oui, réinitialiser",
+        "resetCancelButton": "Annuler",
+        "resetSuccessTitle": "Réinitialisé !",
+        "resetSuccessText": "Votre CV a été réinitialisé aux valeurs par défaut."
+    },
+    "landing": {
+        "heroTitle": "Créez votre CV professionnel en minutes",
+        "heroSubtitle": "Un générateur de CV gratuit, moderne et personnalisable. Aucune inscription requise.",
+        "createCv": "Créer mon CV",
+        "viewGithub": "Voir sur GitHub",
+        "features": "Fonctionnalités",
+        "private": "100% Privé",
+        "privateDesc": "Vos données ne quittent jamais votre navigateur. Tout est stocké localement.",
+        "themes": "Thèmes Personnalisables",
+        "themesDesc": "Choisissez parmi plusieurs templates et personnalisez les couleurs.",
+        "multiFormat": "Export Multi-Format",
+        "multiFormatDesc": "Téléchargez votre CV en PDF, PNG ou JSON.",
+        "instant": "Instantané",
+        "instantDesc": "Pas d'inscription, pas d'attente. Commencez immédiatement.",
+        "multilingual": "Multilingue",
+        "multilingualDesc": "Interface disponible en Français, Anglais et Arabe.",
+        "ats": "ATS-Friendly",
+        "atsDesc": "Optimisé pour les systèmes de suivi des candidatures."
+    },
+    "common": {
+        "webApp": "Application Web"
+    },
+    "cv": {
+        "profile": {
+            "title": "Développeuse Web Full Stack",
+            "location": "Casablanca (mobilité)"
+        },
+        "experience": {
+            "webDevIntern": {
+                "role": "Stagiaire Développeuse Web",
+                "tasks": [
+                    "Développement d'un site vitrine officiel",
+                    "Réalisation de maquettes et intégration front-end avec React, Next.js et Tailwind CSS",
+                    "Mise en place d'animations web interactives"
+                ]
+            }
+        },
+        "projects": {
+            "truckflow": {
+                "description": "Développement d'une solution de gestion de flotte routière permettant de :",
+                "highlights": [
+                    "Gérer le parc automobile (camions, remorques), les chauffeurs et l'assignation des trajets",
+                    "Suivre la maintenance préventive, la consommation et générer les ordres de mission (PDF)"
+                ]
+            },
+            "reservezmoi": {
+                "description": "Développement d'un système permettant aux utilisateurs de :",
+                "highlights": [
+                    "Réserver facilement des services dans plusieurs secteurs (ex : beauté, réparation, etc.)",
+                    "Consulter les disponibilités et gérer leurs réservations"
+                ]
+            }
+        },
+        "education": {
+            "youcode": {
+                "degree": "Formation Développement Full Stack YouCode - UM6P, Campus Youssoufia",
+                "description": "Formation pratique en développement web front-end et back-end"
+            },
+            "bac": {
+                "degree": "Baccalauréat en Sciences physiques et chimiques",
+                "location": "Lycée Okba Bnou Nafiaa – Casablanca"
+            }
+        },
+        "certifications": {
+            "docker": "Docker Foundations Professional LinkedIn Certificate"
+        },
+        "softSkills": {
+            "timeManagement": "Gestion du temps",
+            "adaptability": "Adaptabilité - Flexibilité",
+            "teamwork": "Travail en équipe"
+        },
+        "languageLevels": {
+            "arabic": "Arabe (maternelle)",
+            "french": "Français (B1)",
+            "english": "Anglais (A2)"
+        }
+    }
+}

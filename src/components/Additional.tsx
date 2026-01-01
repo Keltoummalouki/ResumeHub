@@ -1,29 +1,72 @@
+import { useTranslation } from 'react-i18next';
+import { useCVStore } from '@/store/cvStore';
+
 const Additional = () => {
-  return (
-    <div className="space-y-3">
-      <div className="text-xs">
-        <p className="mb-1">Certifications: Docker Foundations Professional LinkedIn Certificate</p>
-      </div>
+    const { t } = useTranslation();
+    const { certifications } = useCVStore((state) => state.cv);
 
-      <div className="border-t-2 border-divider pt-2">
-        <h3 className="text-base font-bold uppercase tracking-wide mb-2">Compétences transversales</h3>
-        <div className="grid grid-cols-3 gap-3 text-xs text-center">
-          <div>Gestion du temps</div>
-          <div>Adaptabilité - Flexibilité</div>
-          <div>Travail en équipe</div>
-        </div>
-      </div>
+    // Get translated soft skills
+    const translatedSoftSkills = [
+        t('cv.softSkills.timeManagement'),
+        t('cv.softSkills.adaptability'),
+        t('cv.softSkills.teamwork'),
+    ];
 
-      <div className="border-t-2 border-divider pt-2">
-        <h3 className="text-base font-bold uppercase tracking-wide mb-2">Langues</h3>
-        <div className="grid grid-cols-3 gap-3 text-xs text-center">
-          <div>Arabe (maternelle)</div>
-          <div>Français (B1)</div>
-          <div>Anglais (A2)</div>
+    // Get translated language levels
+    const translatedLanguages = [
+        t('cv.languageLevels.arabic'),
+        t('cv.languageLevels.french'),
+        t('cv.languageLevels.english'),
+    ];
+
+    return (
+        <div className="space-y-2 text-[11px] leading-relaxed text-black">
+            <div>
+                <p>
+                    <span className="font-bold">{t('sections.certifications')}:</span>{' '}
+                    {certifications.map((cert, index) => (
+                        <span key={index}>
+                            {cert.link ? (
+                                <a
+                                    href={cert.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-black no-underline hover:underline"
+                                >
+                                    {t('cv.certifications.docker')}
+                                </a>
+                            ) : (
+                                t('cv.certifications.docker')
+                            )}
+                            {index < certifications.length - 1 && ', '}
+                        </span>
+                    ))}
+                </p>
+            </div>
+
+            <div className="border-t-2 border-black pt-2">
+                <h3 className="text-sm font-bold uppercase tracking-wide mb-1 text-black">
+                    {t('sections.softSkills')}
+                </h3>
+                <div className="flex justify-between">
+                    {translatedSoftSkills.map((skill, index) => (
+                        <span key={index}>{skill}</span>
+                    ))}
+                </div>
+            </div>
+
+            <div className="border-t-2 border-black pt-2">
+                <h3 className="text-sm font-bold uppercase tracking-wide mb-1 text-black">
+                    {t('sections.languages')}
+                </h3>
+                <div className="flex justify-between">
+                    {translatedLanguages.map((lang, index) => (
+                        <span key={index}>{lang}</span>
+                    ))}
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default Additional;

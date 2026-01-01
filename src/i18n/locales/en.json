@@ -1,0 +1,138 @@
+{
+    "header": {
+        "phone": "Phone",
+        "email": "Email",
+        "address": "Address",
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "portfolio": "Portfolio"
+    },
+    "sections": {
+        "technicalSkills": "Technical Skills",
+        "experience": "Professional Experience",
+        "education": "Education",
+        "projects": "Projects",
+        "certifications": "Certifications",
+        "softSkills": "Soft Skills",
+        "languages": "Languages"
+    },
+    "skills": {
+        "languages": "Languages",
+        "frameworks": "Frameworks & APIs",
+        "databases": "Databases",
+        "devops": "DevOps",
+        "projectManagement": "Project Management",
+        "design": "UX/UI Design",
+        "versionControl": "Version Control",
+        "modeling": "Modeling"
+    },
+    "experience": {
+        "technologies": "Technologies & tools used"
+    },
+    "languages": {
+        "native": "native",
+        "fluent": "fluent",
+        "advanced": "advanced",
+        "intermediate": "intermediate",
+        "beginner": "beginner"
+    },
+    "export": {
+        "export": "Export",
+        "downloadPdf": "PDF (High quality)",
+        "downloadPng": "PNG (4x resolution)",
+        "print": "Print",
+        "exportJson": "Export JSON",
+        "importJson": "Import JSON",
+        "reset": "Reset",
+        "generatingPdf": "Generating PDF...",
+        "generatingPng": "Generating image...",
+        "pdfSuccess": "CV downloaded as high quality PDF!",
+        "pngSuccess": "CV downloaded as high resolution PNG!",
+        "jsonExportSuccess": "CV exported as JSON!",
+        "jsonImportSuccess": "CV imported successfully!",
+        "jsonImportError": "Invalid JSON file. Check the format.",
+        "resetConfirmTitle": "Reset CV?",
+        "resetConfirmText": "This action will delete all your modifications.",
+        "resetConfirmButton": "Yes, reset",
+        "resetCancelButton": "Cancel",
+        "resetSuccessTitle": "Reset!",
+        "resetSuccessText": "Your CV has been reset to default values."
+    },
+    "landing": {
+        "heroTitle": "Create your professional CV in minutes",
+        "heroSubtitle": "A free, modern, and customizable CV generator. No signup required.",
+        "createCv": "Create my CV",
+        "viewGithub": "View on GitHub",
+        "features": "Features",
+        "private": "100% Private",
+        "privateDesc": "Your data never leaves your browser. Everything is stored locally.",
+        "themes": "Customizable Themes",
+        "themesDesc": "Choose from multiple templates and customize colors.",
+        "multiFormat": "Multi-Format Export",
+        "multiFormatDesc": "Download your CV in PDF, PNG, or JSON format.",
+        "instant": "Instant",
+        "instantDesc": "No signup, no waiting. Start creating immediately.",
+        "multilingual": "Multilingual",
+        "multilingualDesc": "Interface available in French, English, and Arabic.",
+        "ats": "ATS-Friendly",
+        "atsDesc": "Optimized for applicant tracking systems."
+    },
+    "common": {
+        "webApp": "Web Application"
+    },
+    "cv": {
+        "profile": {
+            "title": "Full Stack Web Developer",
+            "location": "Casablanca (willing to relocate)"
+        },
+        "experience": {
+            "webDevIntern": {
+                "role": "Web Developer Intern",
+                "tasks": [
+                    "Developed an official showcase website",
+                    "Designed wireframes and implemented front-end interfaces using React, Next.js, and Tailwind CSS",
+                    "Implemented interactive web animations"
+                ]
+            }
+        },
+        "projects": {
+            "truckflow": {
+                "description": "Development of a road fleet management solution:",
+                "highlights": [
+                    "Managed vehicles (trucks, trailers), drivers, and trip assignments",
+                    "Tracked preventive maintenance and fuel consumption, and generated mission orders (PDF)"
+                ]
+            },
+            "reservezmoi": {
+                "description": "Development of a multi-sector service booking system:",
+                "highlights": [
+                    "Enabled users to book services easily in various sectors (beauty, repair, etc.)",
+                    "Allowed users to view availability and manage reservations"
+                ]
+            }
+        },
+        "education": {
+            "youcode": {
+                "degree": "Full Stack Web Development Training – YouCode – UM6P, Youssoufia Campus",
+                "description": "Hands-on training in front-end and back-end web development"
+            },
+            "bac": {
+                "degree": "Bachelor's Degree in Physical and Chemical Sciences",
+                "location": "Okba Bnou Nafiaa High School – Casablanca"
+            }
+        },
+        "certifications": {
+            "docker": "Docker Foundations Professional LinkedIn Certificate"
+        },
+        "softSkills": {
+            "timeManagement": "Time management",
+            "adaptability": "Adaptability - Flexibility",
+            "teamwork": "Teamwork"
+        },
+        "languageLevels": {
+            "arabic": "Arabic (native)",
+            "french": "French (B1)",
+            "english": "English (A2)"
+        }
+    }
+}

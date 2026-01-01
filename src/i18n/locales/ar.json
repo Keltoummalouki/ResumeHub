@@ -1,0 +1,138 @@
+{
+    "header": {
+        "phone": "الهاتف",
+        "email": "البريد الإلكتروني",
+        "address": "العنوان",
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "portfolio": "الموقع"
+    },
+    "sections": {
+        "technicalSkills": "المهارات التقنية",
+        "experience": "الخبرات المهنية",
+        "education": "التعليم",
+        "projects": "المشاريع المنجزة",
+        "certifications": "الشهادات",
+        "softSkills": "المهارات الشخصية",
+        "languages": "اللغات"
+    },
+    "skills": {
+        "languages": "لغات البرمجة",
+        "frameworks": "الأطر والواجهات البرمجية",
+        "databases": "قواعد البيانات",
+        "devops": "DevOps",
+        "projectManagement": "إدارة المشاريع",
+        "design": "تصميم UX/UI",
+        "versionControl": "التحكم في الإصدارات",
+        "modeling": "التصميم"
+    },
+    "experience": {
+        "technologies": "التقنيات والأدوات المستخدمة"
+    },
+    "languages": {
+        "native": "لغة الأم",
+        "fluent": "طلاقة",
+        "advanced": "متقدم",
+        "intermediate": "متوسط",
+        "beginner": "مبتدئ"
+    },
+    "export": {
+        "export": "تصدير",
+        "downloadPdf": "PDF (جودة عالية)",
+        "downloadPng": "PNG (4x دقة)",
+        "print": "طباعة",
+        "exportJson": "تصدير JSON",
+        "importJson": "استيراد JSON",
+        "reset": "إعادة تعيين",
+        "generatingPdf": "جاري إنشاء PDF...",
+        "generatingPng": "جاري إنشاء الصورة...",
+        "pdfSuccess": "تم تحميل السيرة الذاتية بصيغة PDF عالية الجودة!",
+        "pngSuccess": "تم تحميل السيرة الذاتية بصيغة PNG عالية الدقة!",
+        "jsonExportSuccess": "تم تصدير السيرة الذاتية بصيغة JSON!",
+        "jsonImportSuccess": "تم استيراد السيرة الذاتية بنجاح!",
+        "jsonImportError": "ملف JSON غير صالح. تحقق من التنسيق.",
+        "resetConfirmTitle": "إعادة تعيين السيرة الذاتية؟",
+        "resetConfirmText": "سيؤدي هذا الإجراء إلى حذف جميع تعديلاتك.",
+        "resetConfirmButton": "نعم، إعادة تعيين",
+        "resetCancelButton": "إلغاء",
+        "resetSuccessTitle": "تمت إعادة التعيين!",
+        "resetSuccessText": "تمت إعادة تعيين سيرتك الذاتية إلى القيم الافتراضية."
+    },
+    "landing": {
+        "heroTitle": "أنشئ سيرتك الذاتية الاحترافية في دقائق",
+        "heroSubtitle": "منشئ سيرة ذاتية مجاني وحديث وقابل للتخصيص. لا يلزم التسجيل.",
+        "createCv": "إنشاء سيرتي الذاتية",
+        "viewGithub": "عرض على GitHub",
+        "features": "الميزات",
+        "private": "100% خاص",
+        "privateDesc": "بياناتك لا تغادر متصفحك أبدًا. كل شيء مخزن محليًا.",
+        "themes": "قوالب قابلة للتخصيص",
+        "themesDesc": "اختر من بين عدة قوالب وخصص الألوان.",
+        "multiFormat": "تصدير متعدد الصيغ",
+        "multiFormatDesc": "قم بتحميل سيرتك الذاتية بصيغة PDF أو PNG أو JSON.",
+        "instant": "فوري",
+        "instantDesc": "لا تسجيل، لا انتظار. ابدأ فورًا.",
+        "multilingual": "متعدد اللغات",
+        "multilingualDesc": "الواجهة متاحة بالفرنسية والإنجليزية والعربية.",
+        "ats": "متوافق مع ATS",
+        "atsDesc": "محسن لأنظمة تتبع المتقدمين."
+    },
+    "common": {
+        "webApp": "تطبيق ويب"
+    },
+    "cv": {
+        "profile": {
+            "title": "مطورة ويب Full Stack",
+            "location": "الدار البيضاء (مستعدة للانتقال)"
+        },
+        "experience": {
+            "webDevIntern": {
+                "role": "متدربة مطورة ويب",
+                "tasks": [
+                    "تطوير موقع تعريفي رسمي",
+                    "تصميم النماذج الأولية وتكامل الواجهة الأمامية باستخدام React و Next.js و Tailwind CSS",
+                    "تنفيذ رسوم متحركة تفاعلية للويب"
+                ]
+            }
+        },
+        "projects": {
+            "truckflow": {
+                "description": "تطوير حل لإدارة أسطول النقل البري:",
+                "highlights": [
+                    "إدارة المركبات (الشاحنات، المقطورات)، السائقين وتعيين الرحلات",
+                    "متابعة الصيانة الوقائية واستهلاك الوقود وإنشاء أوامر المهام (PDF)"
+                ]
+            },
+            "reservezmoi": {
+                "description": "تطوير نظام حجز خدمات متعدد القطاعات:",
+                "highlights": [
+                    "تمكين المستخدمين من حجز الخدمات بسهولة في مختلف القطاعات (التجميل، الإصلاح، إلخ.)",
+                    "عرض التوافر وإدارة الحجوزات"
+                ]
+            }
+        },
+        "education": {
+            "youcode": {
+                "degree": "تكوين تطوير الويب Full Stack - YouCode - UM6P، حرم اليوسفية",
+                "description": "تكوين عملي في تطوير الويب front-end و back-end"
+            },
+            "bac": {
+                "degree": "شهادة البكالوريا في العلوم الفيزيائية والكيميائية",
+                "location": "ثانوية عقبة بن نافع – الدار البيضاء"
+            }
+        },
+        "certifications": {
+            "docker": "شهادة Docker Foundations Professional من LinkedIn"
+        },
+        "softSkills": {
+            "timeManagement": "إدارة الوقت",
+            "adaptability": "التكيف - المرونة",
+            "teamwork": "العمل الجماعي"
+        },
+        "languageLevels": {
+            "arabic": "العربية (اللغة الأم)",
+            "french": "الفرنسية (B1)",
+            "english": "الإنجليزية (A2)"
+        }
+    }
+}
