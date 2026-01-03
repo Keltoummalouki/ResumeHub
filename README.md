@@ -12,7 +12,7 @@
 
 **Create beautiful, ATS-friendly resumes in minutes. No signup. No tracking. Your data never leaves your browser.**
 
-[🚀 **Live Demo**](https://resumehub.vercel.app) • [📖 Documentation](#features) • [🐛 Report Bug](https://github.com/keltoummalouki/ResumeHub/issues)
+[🚀 **Live Demo**](http://cv-generator-e1rraet07-keltoummalouki911-gmailcoms-projects.vercel.app/editor) • [📖 Documentation](#features) • [🐛 Report Bug](https://github.com/keltoummalouki/ResumeHub/issues)
 
 </div>
 
