@@ -17,7 +17,7 @@ export const defaultCV: CVData = {
         address: 'Casablanca (mobilité)',
         github: 'keltoummalouki',
         linkedin: 'keltoummalouki',
-        portfolio: 'keltoummalouki.me',
+        portfolio: 'keltoummalouki.com',
     },
     skills: {
         languages: ['C', 'HTML5', 'CSS3', 'SQL', 'NoSQL', 'JavaScript', 'TypeScript', 'PHP'],

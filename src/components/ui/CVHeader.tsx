@@ -20,7 +20,7 @@ const CVHeader = () => {
           />
         </div>
       </div>
-      
+
       <div className="border-t-2 border-divider pt-2 pb-2">
         <div className="text-[10px] space-y-1 leading-relaxed">
           <p>
@@ -31,7 +31,7 @@ const CVHeader = () => {
           <p>
             <span className="font-bold">GitHub :</span> keltoummalouki |{" "}
             <span className="font-bold">Linkedin:</span> keltoummalouki |{" "}
-            <span className="font-bold">Portfolio :</span> keltoummalouki.me
+            <span className="font-bold">Portfolio :</span> keltoummalouki.com
           </p>
         </div>
       </div>

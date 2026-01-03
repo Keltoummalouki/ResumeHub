@@ -182,7 +182,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Keltoum Malouki**
 
-- Portfolio: [keltoummalouki.me](https://keltoummalouki.me)
+- Portfolio: [keltoummalouki.com](https://www.keltoummalouki.com/)
 - GitHub: [@keltoummalouki](https://github.com/keltoummalouki)
 - LinkedIn: [keltoummalouki](https://linkedin.com/in/keltoummalouki)
 

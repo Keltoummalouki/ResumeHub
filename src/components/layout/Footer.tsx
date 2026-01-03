@@ -7,7 +7,7 @@ const Footer = () => {
                 <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
                     Créé avec <Heart className="inline-block h-4 w-4 text-red-500 fill-red-500" /> par{' '}
                     <a
-                        href="https://keltoummalouki.me"
+                        href="https://www.keltoummalouki.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="font-medium underline underline-offset-4 hover:text-primary"
