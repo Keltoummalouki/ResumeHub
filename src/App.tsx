@@ -37,7 +37,7 @@ const App = () => (
         <CommandPalette />
         <Routes>
           {/* Public Routes */}
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/" element={<EditorPage />} />
           <Route path="/editor" element={<EditorPage />} />
           <Route path="/preview" element={<PreviewPage />} />
           <Route path="/preview/:variantId" element={<PreviewPage />} />
